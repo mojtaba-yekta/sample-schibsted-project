@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./homepage.component.less'],
 })
 export class HomepageComponent {
-  imageUrls: string[] = ['Apple', 'Orange', 'Banana'];
+  imageUrls: string[];
 
   constructor() {
     this.imageUrls = [
