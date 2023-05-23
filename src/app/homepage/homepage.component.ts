@@ -13,7 +13,6 @@ export class HomepageComponent {
       `https://picsum.photos/seed/${this.randomInteger()}/1920/1080`,
       `https://picsum.photos/seed/${this.randomInteger()}/1920/1080`,
       `https://picsum.photos/seed/${this.randomInteger()}/1920/1080`,
-      `https://picsum.photos/seed/${this.randomInteger()}/1920/1080`,
     ];
   }
 

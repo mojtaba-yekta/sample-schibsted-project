@@ -1,37 +1,10 @@
 <div class="flex max-h-screen min-h-screen overflow-hidden bg-black">
   <div class="w-1/2">
-    <div class="group relative h-1/2 bg-red-200">
-      <img src="{{ imageUrls[0] }}" class="h-full w-full object-cover" />
-      <div
-        class="absolute left-0 top-0 z-50 h-full w-0 bg-white/75 transition-[width] duration-300 group-hover:w-full"
-      >
-        <div
-          class="opacity-0 transition-opacity duration-300 ease-in group-hover:opacity-100"
-        >
-          <p>
-            twitter
-          </p>
-          <p>twitter</p>
-          <p>twitter</p>
-        </div>
-      </div>
-    </div>
-    <div class="flex h-1/2 bg-lime-400">
-      <img src="{{ imageUrls[1] }}" class="h-full w-full object-cover" />
-    </div>
+    <app-social-network imageUrl="{{ imageUrls[0] }}"></app-social-network>
+    <app-our-service imageUrl="{{ imageUrls[1] }}"></app-our-service>
   </div>
   <div class="w-1/2">
-    <div class="group h-1/2 bg-yellow-400 [perspective:1000px] relative">
-      <div class="absolute left-0 top-0 h-full w-full bg-white z-10">test</div>
-      <img
-        src="{{ imageUrls[2] }}"
-        class="h-full w-full object-cover transition-all duration-500 
-        group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden] z-20 absolute"
-      />
-      
-    </div>
-    <div class="h-1/2 bg-purple-400">
-      <img src="{{ imageUrls[3] }}" class="h-full w-full object-cover" />
-    </div>
+    <app-about imageUrl="{{ imageUrls[2] }}"></app-about>
+    <app-contact-form></app-contact-form>
   </div>
 </div>
